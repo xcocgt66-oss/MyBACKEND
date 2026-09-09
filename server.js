@@ -5,6 +5,7 @@ const axios = require("axios");
 const path = require("path");
 const fs = require("fs");
 const crypto = require("crypto");
+const cors = require('cors');
 
 const app = express();
 const server = http.createServer(app);
